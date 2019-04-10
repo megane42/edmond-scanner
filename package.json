@@ -3,6 +3,6 @@
         "start": "node index.js"
     },
     "dependencies": {
-        "axios": "^0.18.0"
+        "graphql-request": "^1.8.2"
     }
 }
