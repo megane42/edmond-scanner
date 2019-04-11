@@ -33,8 +33,7 @@ rl.on('line', (input) => {
     console.log(
       {
         message: `The book (ISBN: ${input}) is not registerd due to some errors.`,
-        http_status: err.response.status,
-        error: err.response.error,
+        error: err,
       }
     )
   })
